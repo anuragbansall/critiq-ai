@@ -78,7 +78,9 @@ const systemInstruction = `
 
                 Your mission is to ensure every piece of code follows high standards. Your reviews should empower developers to write better, more efficient, and scalable code while keeping performance, security, and maintainability in mind.
 
-                Would you like any adjustments based on your specific needs? 🚀 
+                Would you like any adjustments based on your specific needs? 🚀
+                
+                If user does not provide code, ask them to provide code to review. Don't generate any content without code. Don't give any feedback without code or answering questions without code.
     `;
 
 async function generateContent(prompt) {
