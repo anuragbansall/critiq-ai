@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+pre,
+code {
+  background-color: transparent !important;
+  outline: none !important;
+  border: none !important;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
